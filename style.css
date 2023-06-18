@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding-left: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(/IMG/hembra-empujando-celular-gran-pantalla-vacia-sobre-fondo-azul_116547-28854.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+  
+  h1 {
+    font-family: "Arial", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #050505;
+    text-transform: uppercase;
+  }
+  
+  input[type="text"], button {
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 15px;
+  }
+
+ 
+  
+  #weather-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  #weather-container h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  #weather-container h2{
+    font-size: 44px;
+    font-weight: bold;
+    color: #333333;
+  }
+
+  #weather-container p {
+    margin: 0;
+    font-size: 24px;
+  }
+  
